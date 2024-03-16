@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+button {
+    height: 150px;
+    width: 400px;
+    font-size: 5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
