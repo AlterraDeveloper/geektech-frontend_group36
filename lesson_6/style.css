@@ -1,0 +1,30 @@
+body{
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cell{
+    background-color: #1d1d1d;
+    width: 24px;
+    height: 24px;
+    transition: 2s ease;
+    box-shadow: 0 0 2px #000;
+}
+
+.cell:hover {
+    transition-duration: 0s;
+}
+
