@@ -64,7 +64,7 @@ function copyToClipboard(){
     document.body.append(popup);
     setTimeout(function () {
         popup.remove();
-    }, 1200);
+    }, 2000);
 }
 
 button.addEventListener("click", changeBackground);
@@ -75,7 +75,5 @@ button.onmouseleave = copyToClipboard;
 // let popup = buildPopup("Hello");
 // document.body.append(popup);
 
-// setTimeout(function (){
-//     popup.remove();
-// }, 4000); // 4 sec
+setInterval(changeBackground, 500);
 
