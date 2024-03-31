@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    background: #1c262f;
+    color: #E6E1E1FF;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo svg {
+    width: 30vw;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+form input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+form button[type="submit"] {
+    padding: 30px 25px;
+    background-color: #0ad9ff;
+    color: #000000;
+    font-size: 1.25rem;
+    border-radius: 100px;
+    border: none;
+}
+
+hr {
+    width: 90vw;
+}
+
+.kmPerDaysWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.kmPerDays {
+    display: flex;
+    gap: 10vw;
+    margin: 25px 0px;
+}
+
+.kmPerDay {
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    background-color: #141c22;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+#progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.progressWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(#70db70 0%, #2d3740 0%, #2d3740 100%);
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-center {
+    width: 250px;
+    height: 250px;
+    background-color: #1c262f;
+    border-radius: 100%;
+}
+
+
+
+
+
